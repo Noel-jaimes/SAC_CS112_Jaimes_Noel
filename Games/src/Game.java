@@ -56,3 +56,5 @@ public class Game {
 		}
 	}
 }
+
+// Please help explain the logic behind the code
