@@ -148,3 +148,5 @@ public class RockPaperScissorsGui {
 		frmGame.getContentPane().add(lblNewLabel);
 	}
 }
+
+// Nice!
