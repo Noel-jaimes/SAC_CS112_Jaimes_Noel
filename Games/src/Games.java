@@ -18,7 +18,7 @@ public class Games {
         
         RandomNumber games = new RandomNumber(lo, hi);
         
-        randomNum = games.SendANumber();
+        randomNum = games.GetRandom();
         
         
         if (user == 4 || user == 7 || user == 10)

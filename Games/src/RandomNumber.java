@@ -13,7 +13,7 @@ public class RandomNumber {
     	randomNum = lo + (int)(Math.random() * hi);
     }
 
-    public int SendANumber()
+    public int GetRandom()
     {       
         return randomNum;
     }
