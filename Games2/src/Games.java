@@ -1,17 +1,22 @@
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 public class Games {
 	public static void main(String[] args) {
+		int diceRoll;
+		boolean evenOrOdd;
 		
-		JOptionPane.showMessageDialog(null,"Lets Play Rock Papers or Scissors");
-		String users =
-				JOptionPane.showInputDialog("Press 1 for Rock\nPress 2 for Paper\nPress 3 for Scissors");
+		Scanner input = new Scanner (System.in);
 		
-		int user =Integer.parseInt(users);
+		System.out.println("How many dice are you rolling?");
+		diceRoll = input.nextInt();
+		System.out.println("Do you want your number even or odd");
+		evenOrOdd = input.nextBoolean();
+		System.out.println("Rolling Dice");
+		Dice userDice = new Dice ();
 		
-		Game games = new Game(user);
+		userDice.Throw(diceRoll, evenOrOdd);
 		
-		games.display();
-		
+		System.out.printf("You rolled a %d.\n", userDice.Value());
+		System.out.printf("I rolled a %d.", Dice.OneDice());
 	}
 }

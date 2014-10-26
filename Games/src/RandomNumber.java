@@ -1,16 +1,11 @@
 
 public class RandomNumber {
 	
-	public int randomNum;
+	private int randomNum;
 	
     public RandomNumber ()
     {
-    	randomNum = 1 + (int)(Math.random() * 10);
-    }
-
-    public RandomNumber (int lo, int hi)
-    {
-    	randomNum = lo + (int)(Math.random() * hi);
+    	randomNum = 1 + (int)(Math.random() * 3);
     }
 
     public int GetRandom()
