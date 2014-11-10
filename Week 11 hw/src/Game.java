@@ -5,7 +5,7 @@ public class Game {
 	
 	//Constructor with one parameter
 	public Game(int number)
-	{
+	{ 
 		choice = number;
 	}
 	

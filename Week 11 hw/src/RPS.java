@@ -6,7 +6,7 @@ public class RPS {
 		
 		Scanner input = new Scanner (System.in);
 		
-		// variables
+		// variables 
 		int userChoice;
 		int result;
 		

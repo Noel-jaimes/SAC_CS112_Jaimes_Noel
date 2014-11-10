@@ -5,7 +5,7 @@ public class Computer extends Game {
 	
 	//constructor with one parameter. Using superclass to store choice
 	public Computer (int choice)
-	{
+	{ 
 		super(choice);
 	}
 	
