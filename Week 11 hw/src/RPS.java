@@ -35,3 +35,4 @@ public class RPS {
 		winning.display();
 	}
 }
+// Good job, but please re-consider the name of the display and displays methods to something more meaningful.
