@@ -127,3 +127,5 @@ public class Dice {
 		frame.getContentPane().add(lblBetween);
 	}
 }
+
+// Good job!
